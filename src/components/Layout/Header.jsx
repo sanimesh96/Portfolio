@@ -28,6 +28,7 @@ function Header({ toggleHeader, toggleHandler }) {
 
   useEffect(() => {
     setCurrentPath(match.path);
+    console.log(currentPath, "------",match.path)
   }, [match]);
 
   return (

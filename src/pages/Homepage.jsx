@@ -32,7 +32,7 @@ function Homepage() {
         </section>
       </Element>
 
-      <Element name="section-skills">
+      <Element name="section-skill">
         <section className="shadow-blue white-bg padding">
           <SectionHeading title="My skills" />
           <Skills />

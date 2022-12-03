@@ -32,9 +32,9 @@ const funfactData = [
 function Funfacts() {
   return (
     <section className="shadow-dark color-white background parallax padding-50">
-      <div className="row relative z-1 -mt-50">
+      <div className="row relative z-1 -mt-50 justify-content-center d-flex">
         {funfactData.map((funfact) => (
-          <div className="col-md-3 col-sm-6 mt-50" key={funfact.id} style = {{display : "flex", alignItems : "center" }}>
+          <div className="col-md-3 col-sm-6 mt-50" key={funfact.id}>
             <TrackVisibility once>
               <Funfact funfact={funfact} />
             </TrackVisibility>
