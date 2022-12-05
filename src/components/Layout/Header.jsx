@@ -12,7 +12,7 @@ import {
 const headerData = {
   name: "Satwik Animesh",
   designation: "Web Developer",
-  imageThumb: "/images/logo.png",
+  imageThumb: "/images/logo3.png",
   social: {
     facebook: "https://www.facebook.com/satwik.animesh/",
     twitter: "https://twitter.com/satwikanimesh",
@@ -71,7 +71,7 @@ function Header({ toggleHeader, toggleHandler }) {
         </button>
         <div className="header-inner d-flex align-items-start flex-column">
           <Link to="/">
-            <img src={headerData.imageThumb} alt={headerData.name} />
+            <img src={headerData.imageThumb} alt={headerData.name} style = {{maxWidth: "43%"}}/>
           </Link>
           <Link to="/" className="site-title dot mt-3">
             {headerData.name}
