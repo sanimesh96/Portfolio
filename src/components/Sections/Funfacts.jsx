@@ -5,28 +5,28 @@ import Funfact from "../Items/Funfact";
 const funfactData = [
   {
     id: 1,
-    title: "Projects completed",
-    count: 157,
-    icon: "icon-like",
+    title: "Hrs on Spotify",
+    count: 57628,
+    icon: "icon-equalizer",
   },
   {
     id: 2,
-    title: "Cup of coffee",
+    title: "Hrs in CSGO",
     count: 2765,
-    icon: "icon-cup",
+    icon: "icon-game-controller",
   },
-  // {
-  //   id: 3,
-  //   title: "Happy customers",
-  //   count: 350,
-  //   icon: "icon-emotsmile",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Awards won",
-  //   count: 29,
-  //   icon: "icon-trophy",
-  // },
+  {
+    id: 3,
+    title: "Leetcode Problems",
+    count: 285,
+    icon: "icon-emotsmile",
+  },
+  {
+    id: 4,
+    title: "Hackathon Finalists",
+    count: 6,
+    icon: "icon-trophy",
+  },
 ];
 
 function Funfacts() {
