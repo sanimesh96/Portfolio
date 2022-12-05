@@ -44,7 +44,7 @@ function Homepage() {
       </Element>
 
       <Element name="section-services">
-        <section className="shadow-blue white-bg padding">
+        <section className="shadow-blue white-bg padding d-none">
           <SectionHeading title="Services" />
           <Services />
         </section>

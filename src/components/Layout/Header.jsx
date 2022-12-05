@@ -135,7 +135,7 @@ function Header({ toggleHeader, toggleHandler }) {
                   </Link>
                 )}
               </li>
-              <li>
+              <li className="d-none">
                 {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
