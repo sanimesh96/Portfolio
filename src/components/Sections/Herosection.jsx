@@ -5,6 +5,8 @@ const herosectionData = {
   name: "Satwik Animesh",
   aboutMe:
     "He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
+    aboutMee : 
+    "FullStack WebDeveloper | Machine Learning Enthusiast | Pro-Gamer"
 };
 
 function Herosection() {
@@ -18,7 +20,7 @@ function Herosection() {
           I’m {herosectionData.name}
           <span className="dot"></span>
         </h1>
-        <p className="mb-4">{herosectionData.aboutMe}</p>
+        <p className="mb-4">{herosectionData.aboutMee}</p>
         <ScrollLink
           activeClass="active"
           to="section-portfolios"

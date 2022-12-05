@@ -11,7 +11,7 @@ import {
 
 const headerData = {
   name: "Satwik Animesh",
-  designation: "Web Developer",
+  designation: "Final Year | NITR",
   imageThumb: "/images/logo3.png",
   social: {
     facebook: "https://www.facebook.com/satwik.animesh/",

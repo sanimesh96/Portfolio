@@ -10,6 +10,8 @@ const aboutData = {
   email: "sanimesh96@gmail.com",
   aboutMe:
     "I am Bako Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at wordpress.",
+    aboutMee : 
+    "I am Satwik Animesh, a final Year undergrad web developer from India. I have rich experience in building full fledeged web applications for solving real world problems."
 };
 
 function About() {
@@ -20,7 +22,7 @@ function About() {
       </div>
       <div className="col-md-9">
         <h2 className="mt-4 mt-md-0 mb-4">Hello,</h2>
-        <p className="mb-0">{aboutData.aboutMe}</p>
+        <p className="mb-0">{aboutData.aboutMee}</p>
         <div className="row my-4">
           <div className="col-md-6">
             <p className="mb-2">
