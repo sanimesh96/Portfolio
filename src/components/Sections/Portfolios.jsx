@@ -27,67 +27,83 @@ const filters = [
 const allData = [
   {
     id: 1,
-    name: "Creative Art",
+    name: "Prescriptor",
     category: ["creative"],
-    image: "images/portfolio/1.jpg",
+    image: "images/portfolio/prescriptor.jpeg",
     slug: "creative-art",
+    github : "https://github.com/sanimesh96/Prescriptor",
+    skils : ["Django", "AWS"]
   },
   {
     id: 2,
-    name: "Apple USB",
+    name: "Aperture",
     category: ["creative", "design"],
-    image: "images/portfolio/2.jpg",
+    image: "images/portfolio/aperture.jpeg",
     slug: "apple-usb",
+    github : "https://github.com/KamaljeetSahoo/Project-Aperture",
+    skils : ["Django", "Azure"]
   },
   {
     id: 3,
-    name: "Work Space",
+    name: "Omniverse",
     category: ["branding"],
-    image: "images/portfolio/3.jpg",
+    image: "images/portfolio/omniverse.jpeg",
     slug: "work-space",
+    github : "https://github.com/KamaljeetSahoo/Project-Omniverse",
+    skils : ["Django", "Unity"]
   },
   {
     id: 4,
-    name: "Creative Bulb",
+    name: "CoVid-19 Detection",
     category: ["creative"],
-    image: "images/portfolio/4.jpg",
+    image: "images/portfolio/covid19.jpeg",
     slug: "creative-bulb",
+    github : "https://github.com/sanimesh96/CoVID-Dection-From-XRays",
+    skils : ["Django", "PyTorch"]
   },
   {
     id: 5,
-    name: "Iphone 8",
+    name: "Text to HandWritting",
     category: ["branding", "art"],
-    image: "images/portfolio/5.jpg",
+    image: "images/portfolio/t2h.jpeg",
     slug: "iphone-8",
+    github : "https://github.com/KamaljeetSahoo/Text-To-Handwriting",
+    skils : ["Django", "OpenCV"]
   },
   {
     id: 6,
-    name: "Minimal Art",
+    name: "Object Tracking(Open CV)",
     category: ["design", "creative"],
-    image: "images/portfolio/6.jpg",
+    image: "images/portfolio/objectdet.jpeg",
     slug: "minimal-art",
+    github : "https://github.com/sanimesh96/Object-Tracking-OpenCV",
+    skils : ["PyQt", "OpenCV"]
+
   },
-  {
-    id: 7,
-    name: "Creative Art",
-    category: ["creative"],
-    image: "images/portfolio/1.jpg",
-    slug: "creative-art",
-  },
-  {
-    id: 8,
-    name: "Apple USB",
-    category: ["creative", "design"],
-    image: "images/portfolio/2.jpg",
-    slug: "apple-usb",
-  },
-  {
-    id: 9,
-    name: "Work Space",
-    category: ["branding"],
-    image: "images/portfolio/3.jpg",
-    slug: "work-space",
-  },
+  // {
+  //   id: 7,
+  //   name: "Creative Art",
+  //   category: ["creative"],
+  //   image: "images/portfolio/1.jpg",
+  //   slug: "creative-art",
+  //   github : ""
+  // },
+  // {
+  //   id: 8,
+  //   name: "Apple USB",
+  //   category: ["creative", "design"],
+  //   image: "images/portfolio/2.jpg",
+  //   slug: "apple-usb",
+  //   github : ""
+  // },
+  // {
+  //   id: 9,
+  //   name: "Work Space",
+  //   category: ["branding"],
+  //   image: "images/portfolio/3.jpg",
+  //   slug: "work-space",
+  //   github : ""
+  // },
 ];
 
 function Portfolios() {
@@ -144,7 +160,7 @@ function Portfolios() {
 
   return (
     <>
-      <ul className="portfolio-filter list-inline">
+      <ul className="portfolio-filter list-inline d-none">
         {filters.map((filter) => (
           <li
             className={
@@ -182,7 +198,7 @@ function Portfolios() {
       </div>
 
       {noMorePost ? null : (
-        <div className="load-more text-center mt-4">
+        <div className="load-more text-center mt-4 d-none">
           <a
             href="#!"
             className="btn btn-default"
