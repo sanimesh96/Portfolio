@@ -2,7 +2,7 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const aboutData = {
-  cvpath: "media/SatwikAnimeshResume.pdf",
+  cvpath: "media/SatwikAnimesh FullStack.pdf",
   image: "images/logo1.jpg",
   name: "Satwik Animesh",
   location: "Bhubaneshwar, Odisha",
