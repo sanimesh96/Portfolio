@@ -5,7 +5,8 @@ import Skill from "../Items/Skill";
 const skillData = {
   skillContent:
     "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks grove right at the coast of the Semantics",
-    skillContent1 :"Being a fast learner and having a good grasp on web development fundamentals, I keep myself updated with the new technology stack that comes in the industry.", 
+  skillContent1 :
+    "Being a fast learner and having a good grasp on web development fundamentals, I keep myself updated with the new technology stack that comes in the industry.", 
   progressData: [
     {
       id: 1,

@@ -11,7 +11,7 @@ import {
 
 const headerData = {
   name: "Satwik Animesh",
-  designation: "Final Year | NITR",
+  designation: "NIT Rourkela",
   imageThumb: "/images/logo3.png",
   social: {
     facebook: "https://www.facebook.com/satwik.animesh/",
@@ -76,9 +76,7 @@ function Header({ toggleHeader, toggleHandler }) {
           <Link to="/" className="site-title dot mt-3">
             {headerData.name}
           </Link>
-
           <span className="site-slogan">{headerData.designation}</span>
-
           <nav>
             <ul className="vertical-menu scrollspy">
               <li>

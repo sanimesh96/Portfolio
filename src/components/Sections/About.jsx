@@ -2,7 +2,7 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const aboutData = {
-  cvpath: "media/SatwikAnimesh FullStack.pdf",
+  cvpath: "media/SatwikAnimesh_May_2023_ (1).pdf",
   image: "images/logo1.jpg",
   name: "Satwik Animesh",
   location: "Bhubaneshwar, Odisha",
@@ -11,7 +11,7 @@ const aboutData = {
   aboutMe:
     "I am Bako Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at wordpress.",
     aboutMee : 
-    "I am Satwik Animesh, a final Year undergrad web developer from India. I have rich experience in building full fledeged web applications for solving real world problems."
+    "I am Satwik Animesh,a Software Developer from India. I have rich experience in building full fledeged web applications for solving real world problems."
 };
 
 function About() {
